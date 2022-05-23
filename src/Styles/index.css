@@ -1,0 +1,33 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav {
+  border: solid 1px black;
+  width: 100%;
+  border-radius: 50px;
+  border-style: dotted;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=index.css.map */
