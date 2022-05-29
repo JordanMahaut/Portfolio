@@ -20,14 +20,28 @@ li {
   width: 100%;
   border-radius: 50px;
   border-style: dotted;
+  padding: 1.1rem;
+  margin-top: 25px;
 }
 
 ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  gap: 18%;
+}
+
+ul li {
+  color: black;
+  text-align: center;
+}
+
+ul li:hover {
+  color: blue;
+}
+
+.contact {
+  border: solid 1px black;
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */
