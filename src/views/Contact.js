@@ -4,7 +4,7 @@ import Navigation from "../components/Navigation";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="contact2">
       <Navigation />
       <h1>Contact</h1>
       <Information />

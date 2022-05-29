@@ -3,18 +3,29 @@ import React from "react";
 const Information = () => {
   return (
     <div className="contact">
-      <p>
-        <strong>Email : </strong> <a href="jordanmahaut09@gmail.com"></a>
-      </p>
-      <p>
-        <strong>Numéro de téléphone : </strong>06 02 40 58 14
-      </p>
-      <p>
-        <strong>LinkedIn : </strong>{" "}
-        <a href="https://www.linkedin.com/in/jordan-mahaut-b30908227/">
-          Jordan Mahaut
-        </a>
-      </p>
+      <div className="Name">
+        <p>
+          <strong> Email : </strong>
+        </p>
+
+        <p>
+          <strong>N° de téléphone : </strong>
+        </p>
+
+        <p>
+          <strong>LinkedIn : </strong>
+        </p>
+      </div>
+
+      <div className="Info">
+        <p>jordanmahaut09@gmail.com</p>
+        <p>06 02 40 58 14</p>
+        <p>
+          <a href="https://www.linkedin.com/in/jordan-mahaut-b30908227/">
+            Jordan Mahaut
+          </a>
+        </p>
+      </div>
     </div>
   );
 };

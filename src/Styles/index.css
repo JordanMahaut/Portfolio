@@ -20,7 +20,7 @@ li {
 
 .Nav {
   margin: 0 auto;
-  width: 25%;
+  width: 50%;
 }
 
 ul {
@@ -48,4 +48,23 @@ ul li:hover {
 .contact {
   border: solid 1px black;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.contact .Name {
+  padding: 1.1rem;
+}
+
+.contact .Info {
+  padding: 1.1rem;
+}
+
+.contact2 h1 {
+  margin-top: 15%;
 }
