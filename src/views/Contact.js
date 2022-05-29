@@ -1,11 +1,13 @@
 import React from "react";
+import Information from "../components/Information";
 import Navigation from "../components/Navigation";
 
 const Contact = () => {
   return (
     <div>
       <Navigation />
-      <h1>Soon...</h1>
+      <h1>Contact</h1>
+      <Information />
     </div>
   );
 };
