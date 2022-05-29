@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+* {
+  font-family: "EB Garamond", serif;
+}
+
 body {
   width: 50%;
   margin: 0 auto;
@@ -20,10 +25,10 @@ li {
 
 .Nav {
   margin: 0 auto;
-  width: 50%;
+  width: 75%;
 }
 
-ul {
+.Nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,17 +36,17 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 500px;
+  width: 650px;
   height: 20%;
   border: solid 1px black;
   border-radius: 50px;
 }
 
-ul li {
+.Nav ul li {
   color: black;
 }
 
-ul li:hover {
+.Nav ul li:hover {
   color: blue;
 }
 
@@ -55,6 +60,7 @@ ul li:hover {
   width: 50%;
   margin-left: 25%;
   margin-top: 5%;
+  font-size: 20px;
 }
 
 .contact .Name {
@@ -65,6 +71,37 @@ ul li:hover {
   padding: 1.1rem;
 }
 
+.contact .Info a {
+  color: black;
+  text-shadow: 1px 6px 5px;
+}
+
+.contact .Info a:hover {
+  color: blue;
+}
+
 .contact2 h1 {
   margin-top: 15%;
+}
+
+.projet {
+  width: 600px;
+  margin-left: 17%;
+  padding: 1.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10%;
+}
+
+.projet p {
+  font-size: 17px;
+}
+
+.projet p strong {
+  font-size: 17px;
+}
+
+.pro {
+  text-align: center;
 }

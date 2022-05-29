@@ -1,13 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+* {
+  font-family: "EB Garamond", serif;
+}
+
 body {
   width: 50%;
   margin: 0 auto;
 }
+
 h1,
 h2,
 h3,
 h4 {
   text-align: center;
 }
+
 a {
   text-decoration: none;
 }

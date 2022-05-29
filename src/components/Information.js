@@ -5,11 +5,11 @@ const Information = () => {
     <div className="contact">
       <div className="Name">
         <p>
-          <strong> Email : </strong>
+          <strong>📧</strong>
         </p>
 
         <p>
-          <strong>N° de téléphone : </strong>
+          <strong>📞 </strong>
         </p>
 
         <p>
@@ -18,7 +18,9 @@ const Information = () => {
       </div>
 
       <div className="Info">
-        <p>jordanmahaut09@gmail.com</p>
+        <p>
+          <a href="mailto:jordanmahaut09@gmail.com">Jordan Mahaut</a>
+        </p>
         <p>06 02 40 58 14</p>
         <p>
           <a href="https://www.linkedin.com/in/jordan-mahaut-b30908227/">

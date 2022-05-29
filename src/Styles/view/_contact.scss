@@ -6,13 +6,22 @@
   width: 50%;
   margin-left: 25%;
   margin-top: 5%;
-
+  font-size: 20px;
   .Name {
     padding: 1.1rem;
   }
 
   .Info {
     padding: 1.1rem;
+
+    a {
+      color: black;
+      text-shadow: 1px 6px 5px;
+
+      &:hover {
+        color: blue;
+      }
+    }
   }
 }
 

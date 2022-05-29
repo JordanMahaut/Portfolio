@@ -17,6 +17,9 @@ const Navigation = () => {
         <NavLink to="/curriculumvitae">
           <li>Curriculum Vitae</li>
         </NavLink>
+        <NavLink to="/lettremotivation">
+          <li>Lettre de motivation</li>
+        </NavLink>
       </ul>
     </div>
   );
