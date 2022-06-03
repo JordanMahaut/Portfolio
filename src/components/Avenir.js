@@ -7,7 +7,7 @@ const Avenir = () => {
         <p>
           Grâce à mes études je souhaiterais pouvoir créer ma propre société.
         </p>
-        <p>Ma société aura multiples services qui sont :</p>
+        <p>Ma société aura multiples services qui sont : </p>
         <ul>
           <li>Agence web</li>
           <li>Centre de formation</li>
