@@ -5,8 +5,14 @@ const Avenir = () => {
     <div>
       <div>
         <p>
-          Je souhaiterais en premier temp avec ce BAC +5 créer ma propre société
+          Grâce à mes études je souhaiterais pouvoir créer ma propre société.
         </p>
+        <p>Ma société aura multiples services qui sont :</p>
+        <ul>
+          <li>Agence web</li>
+          <li>Centre de formation</li>
+          <li>E-commerce</li>
+        </ul>
       </div>
     </div>
   );

@@ -14,6 +14,8 @@ const Projet = () => {
         d'atteindre mon projet à venir
       </p>
       <Scolaire />
+      <h2>Projet</h2>
+      <Avenir />
     </div>
   );
 };
